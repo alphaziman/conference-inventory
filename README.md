@@ -1,6 +1,13 @@
 # Ziman Project Circle (ZPC) Marketing Material Tracker 
 
-A Python program that helps Ziman Project Circle (ZPC), a volunteer-run group with no office, track which volunteer holds which marketing materials across Berlin, Hamburg, Munich and Cologne and record every handover between volunteers and events. 
+A Python-based inventory tracker for Ziman Project Circle (ZPC), a volunteer-run organisation without a physical office. Marketing materials and promotional items are stored by volunteers across Berlin, Hamburg, Munich and Cologne, and frequently change hands between events. The tracker provides a single source of truth for ZPC's materials: current stock per city and in total, which volunteer holds each item, and a complete history of handovers.
+
+It supports two main use cases:
+
+- **Monthly regional events:** event leads can see which materials are available in their city and who holds them, while every handover between volunteers is recorded, so materials can always be traced.
+- **Annual conference:** the conference project manager can check existing stock across all regions before placing new orders, and record where leftover items go afterwards.
+
+The project is developed in phases: version 1 is a terminal-based Python application; version 2 is planned as a web application accessible to coordinators in every region.
 
 ## The Problem
 
